@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Log-in</title>
+</head>
+<body>
+    
+    <div id="main">
+        <div class="_img bg-danger m-0 p-0"></div>
+        <div id="main_1" class="sub-main m-auto">
+            <div class="container text-center p-3 pt-0"><h1>Information</h1></div>
+            <p id="name" class="text-center"></p>
+            <form id="form">
+                <input class="input" onfocus="about()" onblur="about_1()" name="_name" type="text" required placeholder="Name">
+                <input class="input" onfocus="gmail()" onblur="gmail_1()" name="_email" type="email" required placeholder="jondio***@gmail.com">
+                <input class="input" onfocus="number()" onblur="number_1()" name="_number" type="number" required placeholder="+8801*********">
+                <input class="submit" style="width: 100%;" type="submit">
+            </form>
+            <div class="container p-0">
+                <div  onclick="document.location='../home/home.html'" class="_skip float-end btn bg-info col-4 py-2">Skip -></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="help.js"></script>
+</body>
+</html>
